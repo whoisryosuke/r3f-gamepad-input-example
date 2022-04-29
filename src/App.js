@@ -10,6 +10,7 @@ import { useStore } from "./store/store"
 // Just importing this is enough - don't need to use it
 import GamepadInput from "./modules/gamepad"
 import { joymap } from "./modules/gamepad"
+// Test
 
 function CustomVertexObject() {
   const { colorMap } = useTexture({ map: "texture_06.png" })
